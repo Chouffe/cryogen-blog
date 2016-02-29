@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #428bca;
+    background-color: #3E687E;
     border: none;
 }
 
@@ -46,9 +46,16 @@ body {
     background-color: #3d80ba;
 }
 
+.navbar-default .navbar-nav .active a:hover {
+    /* color: #E5A977; */
+    /* color: #000; */
+    color: #fff;
+    background-color: #64938D;
+}
+
 .navbar-default .navbar-nav .active a {
     color: #fff;
-    background-color: #3d80ba;
+    background-color: #64938D;
 }
 
 .navbar-default .navbar-toggle:hover{
@@ -77,10 +84,17 @@ body {
 .navbar-default .navbar-nav .open a:focus,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    background-color: #3d80ba;
+    background-color: #E5A977;
     color: #fff;
 }
-
+#sidebar {
+    /* background-color: #fff; */
+    /* border-radius: 3px; */
+    /* box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1); */
+    float:left;
+    margin-top:20px;
+    padding:50px;
+}
 #content {
     background-color: #fff;
     border-radius: 3px;
@@ -98,7 +112,13 @@ footer {
     padding-top: 75px;
     padding-bottom: 30px;
 }
+footer .media {
+    opacity:0.3;
+}
 
+footer .media:hover {
+    opacity:1;
+}
 #post-tags {
     margin-top: 30px;
 }
@@ -119,6 +139,9 @@ footer {
     color: rgba(0,0,0,0.4)
 }
 
+#post-meta #date {
+    text-align:right;
+}
 #page-header {
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: 20px;

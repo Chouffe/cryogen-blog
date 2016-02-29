@@ -1,6 +1,6 @@
 <div class="post-header">
     <div id="post-meta" class="row">
-        <div class="col-lg-6">{{post.date|date:longDate}}</div>
+        <div class="col-lg-12" id="date">{{post.date|date:longDate}}</div>
         {% if post.author %}
         <span class="col-lg-6 right">By: {{post.author}}</span>
         {% endif %}

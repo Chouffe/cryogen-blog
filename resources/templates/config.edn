@@ -1,4 +1,4 @@
-{:site-title         "Simple Lambda"
+{:site-title         "λambda Closure"
  :author             "Arthur Caillau"
  :description        "This blog is awesome"
  :site-url           "http://simplelambda.com"
@@ -23,4 +23,5 @@
  :ignored-files      [#"\.#.*" #".*\.swp$"]
  :posts-per-page     5
  :blocks-per-preview 2
- :previews?          false}
+ :previews?          true
+ :post-per-page      3}
