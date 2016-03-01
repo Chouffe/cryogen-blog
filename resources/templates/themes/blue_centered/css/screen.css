@@ -88,6 +88,7 @@ body {
     color: #fff;
 }
 #sidebar {
+    max-width:350px;
     /* background-color: #fff; */
     /* border-radius: 3px; */
     /* box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1); */
@@ -113,6 +114,8 @@ footer {
     padding-bottom: 30px;
 }
 footer .media {
+    text-decoration: none;
+    margin: 5px;
     opacity:0.3;
 }
 
