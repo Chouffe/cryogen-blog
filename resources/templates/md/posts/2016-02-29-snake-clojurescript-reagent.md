@@ -15,9 +15,12 @@ I am starting this series of tutorials to compare different frontend abstraction
 * ReactJS
 
 ## ClojureScript and Reagent
-The first post will focus on building a Snake Game in ClojureScript and Reagent, using the library re-frame. All the code is available on [my github](https://github.com/Chouffe/snake).
+The first post will focus on building a Snake Game in ClojureScript and Reagent, using the library re-frame. All the code is available on [my github](https://github.com/Chouffe/snake). Here is a demo of what we are about to build:
 
-![Snake Game](/posts/img/snake/snake.png "Snake Game")
+<link href="/posts/css/snake.css" rel="stylesheet" type="text/css">
+<div id="snake"></div>
+<script src="/posts/js/snake.js"></script>
+<script>snake.core.init();</script>
 
 ## Setup
 To get started, just go read about [re-frame](https://github.com/Day8/re-frame). Then run the following lein command to start an re-frame app.

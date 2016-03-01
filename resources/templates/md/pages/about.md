@@ -11,6 +11,7 @@ I am a Software Engineer and Data Scientist, with a background in Machine Learni
 
 ## Influencers
 * Rich Hickey - Creator of Clojure and Datomic
+* Peter Norvig - Director of Research at Google
 * Andrew Ng - Chief Scientist of Baidu
 
 ## Interests

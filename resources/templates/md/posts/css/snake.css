@@ -1,0 +1,55 @@
+.stage {
+  border-collapse:collapse;
+    background-color:black;
+    margin:auto;
+}
+
+.stage td {
+  border: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+.empty {
+    background-color: #222;
+}
+.snake {
+    background-color: #64938D;
+}
+
+.food {
+    background-color: #E5A977;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+.play {
+    cursor: pointer;
+}
+
+.play h1 {
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: 90px;
+    padding-top:90px;
+}
+
+.game {
+    margin:auto;
+    max-width: 670px;
+    /* padding:20px; */
+    position: relative;
+    text-align: center;
+}
+.score {
+  font-size:30px;
+  color:#64938D;
+  font-family: Alegreya;
+}
