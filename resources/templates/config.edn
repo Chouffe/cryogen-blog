@@ -18,8 +18,8 @@
  :theme              "blue_centered"
  :resources          ["img"]
  :keep-files         [".git"]
- :disqus?            true
- :disqus-shortname   "letsachouffe"
+ :disqus?            false
+ :disqus-shortname   ""
  :ignored-files      [#"\.#.*" #".*\.swp$"]
  :posts-per-page     5
  :blocks-per-preview 2

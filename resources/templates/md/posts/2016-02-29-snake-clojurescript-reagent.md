@@ -1,6 +1,6 @@
 {:title "Snake the game - A Functional Programming Style tutorial for ClojureScript and Reagent"
  :layout :post
- :tags  ["Functional Programming" "React" "ClojureScript" "Reagent"]
+ :tags  ["Functional Programming" "React" "ClojureScript" "Reagent" "Re-frame"]
  :toc true}
 
 ## Introduction
