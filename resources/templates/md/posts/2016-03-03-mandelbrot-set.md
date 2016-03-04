@@ -107,6 +107,8 @@ I built a simple visualization tool with ClojureScript, React, re-frame and the 
 <script src="/posts/js/mandelbrot.js"></script>
 <script>mandelbrot.core.init();</script>
 
+The code is fully available on [my github](https://github.com/Chouffe/fractals). Feel free to explore the code and explore your own fractal objects.
+
 ## The End
 
 The Mandelbrot Set is a very simple yet sophisticated mathematical object that derives from very simple rules. I'd like to generate other fractal objects (Julia, Sierpinski Gasket) in a next project.
