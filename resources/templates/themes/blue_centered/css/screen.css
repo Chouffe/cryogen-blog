@@ -87,15 +87,24 @@ body {
     background-color: #E5A977;
     color: #fff;
 }
+
 #sidebar {
-    max-width:350px;
-    /* background-color: #fff; */
-    /* border-radius: 3px; */
-    /* box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1); */
-    float:left;
-    margin-top:20px;
-    padding:50px;
+    display: none;
 }
+
+@media (min-width: 1750px) {
+    #sidebar {
+        max-width:350px;
+        display: block;
+        /* background-color: #fff; */
+        /* border-radius: 3px; */
+        /* box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1); */
+        float:left;
+        margin-top:20px;
+        padding:50px;
+    }
+}
+
 #content {
     background-color: #fff;
     border-radius: 3px;
