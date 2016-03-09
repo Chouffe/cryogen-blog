@@ -5,12 +5,13 @@
 
 A [trie](https://en.wikipedia.org/wiki/Trie) is a powerful datastructure often used for dictionary representation. The goal of this post is to implement a trie in Clojure and ClojureScript. Then we will build an autocomplete system.
 
+![Trie Datastructure](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/600px-Trie_example.svg.png)
+
 ## Trie
 
 * A trie or prefix tree (as they can be searched by prefixes) is an ordered datastructure that is used to store an associative array where the keys are ususally strings.
 * All the descendants of a node have a common prefix of the string associated with that node.
 * The root node is the empty string
-![Trie Datastructure](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/600px-Trie_example.svg.png)
 * A prefix tree allows for quick search, insert and delete operations O(log k) where k is the length of the prefix string
 
 ## Demo

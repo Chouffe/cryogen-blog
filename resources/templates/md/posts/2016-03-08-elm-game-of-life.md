@@ -5,6 +5,8 @@
 
 This is the second post of my series describing functional programming abstraction in the browser. Elm is a relatively new programming language. Elm code compiles to JS, HTML and CSS. It embraces Reactive Programming in a Functional Programming mindset.
 
+![Pulsar shape](https://upload.wikimedia.org/wikipedia/commons/0/07/Game_of_life_pulsar.gif)
+
 ## Elm Language
 
 To be honest, I am pretty excited about Elm! It looks very promising. Elm's syntax is very close to Haskell's syntax. So if you happen to know Haskell you will start writing Elm code in no time.
@@ -41,12 +43,25 @@ I tend to see it as a proper implementation of the MVC pattern that is commonly 
 
 I decided to code a little Elm program for Conway's Game of Life to get a better understanding of Elm. My code is available on [github](https://github.com/Chouffe/elm-game-of-life) as always.
 
+### Introduction
+
+[The Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+At each step in time, the following transitions occur:
+1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+2. Any live cell with two or three live neighbours lives on to the next generation.
+3. Any live cell with more than three live neighbours dies, as if by over-population.
+4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+![Pentadecathlon (period 15)](https://upload.wikimedia.org/wikipedia/commons/f/fb/I-Column.gif)
+
+### Thoughts
+
 Let's first consider how it works
 * There is a board containing alive and dead cells
 * A particular cell on the board will die or live according to Conway's rules
 * Time is perceived as a sequence of transitions between board states
 
-Here are all the actions I wanted to enable:
+Here are all the actions I wanted to enable from a user interface perspective:
 * Changing a cell from dead to alive by clicking on the board
 * Simulating a time change by clicking a *Next* button
 * Loading predefined boards to quickly visualize some interesting shapes in Conway's Game of Life

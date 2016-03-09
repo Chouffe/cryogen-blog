@@ -5,6 +5,8 @@
 
 Functional Programming is finally getting broadly used in the frontend! This is fantastic news! I have been programming in Clojure/ClojureScript for about 2 years. It seems to me that nothing can get quite close to it in terms of productivity and simplicity. So let's give it a try and see what else is out there.
 
+![Snake The Game](/posts/img/snake/snake.png "Snake the Game in ClojureScript")
+
 ## Rationale
 I am starting this series of tutorials to compare different frontend abstractions to build modern real world applications. The goal is to provide the reader with some comparisons on different functional abstractions. I will focus on the following ones:
 
