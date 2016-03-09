@@ -3,7 +3,6 @@
  :tags  ["Functional Programming" "React" "ClojureScript" "Reagent" "Re-frame"]
  :toc true}
 
-## Introduction
 Functional Programming is finally getting broadly used in the frontend! This is fantastic news! I have been programming in Clojure/ClojureScript for about 2 years. It seems to me that nothing can get quite close to it in terms of productivity and simplicity. So let's give it a try and see what else is out there.
 
 ## Rationale

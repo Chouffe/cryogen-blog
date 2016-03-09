@@ -3,8 +3,6 @@
  :tags  ["Data Structures" "Functional Programming" "React" "ClojureScript" "Reagent" "Re-frame"]
  :toc true}
 
-## Introduction
-
 A [trie](https://en.wikipedia.org/wiki/Trie) is a powerful datastructure often used for dictionary representation. The goal of this post is to implement a trie in Clojure and ClojureScript. Then we will build an autocomplete system.
 
 ## Trie

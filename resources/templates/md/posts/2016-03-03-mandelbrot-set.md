@@ -3,8 +3,6 @@
  :tags  ["Functional Programming" "React" "ClojureScript" "Reagent" "Re-frame" "Fractals" "Math"]
  :toc true}
 
-## Introduction
-
 A fractal is a mathematical object that exhibits a pattern that repeats itself at every scale. They are very interesting mathematical concepts because they differ from regular geometrical figures. How does one measure the length a fractal curve? The Mandelbrot Set is a closed area of the complex plane but still, its perimeter is not a finite number.
 Sophisticated structures arise from very simple rules!
 
